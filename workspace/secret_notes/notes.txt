@@ -1,0 +1,2 @@
+Internal notes: this directory is denied by policy (directories.deny).
+The agent's file tools and bash cwd are refused here.

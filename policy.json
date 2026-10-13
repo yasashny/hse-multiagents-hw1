@@ -1,0 +1,24 @@
+{
+  "commands": {
+    "allow": [
+      "python3 -m unittest -v",
+      "python3 -m unittest",
+      "python3 --version",
+      "ls",
+      "pwd"
+    ],
+    "deny": [
+      "rm",
+      "curl",
+      "sudo",
+      "wget"
+    ]
+  },
+  "directories": {
+    "allow": ["workspace"],
+    "deny": ["workspace/secret_notes"]
+  },
+  "journal": {
+    "ignore": ["__pycache__/", "*.pyc"]
+  }
+}
